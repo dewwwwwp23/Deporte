@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Kanit', sans-serif;
+}
+
+.container-fluid{
+    background-color: #fff;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-fluid .banner{
+    background-image: url(./../images/banner3.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid .banner h1{
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+
+.contact{
+    background-color: #DD8A2E;
+    height: 1100px;
+    text-align: center;
+    color: #11255A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: auto;
+}
+
+.contact .text{
+    position: relative;
+    top: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+.contact i{
+    font-size: 80px;
+    margin-top: 60px;
+}
+
+.contact p{
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contact h3{
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contact .icon-button{
+    width: 173px;
+    height: 47px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #DD8A2E;
+}
+
+.contact .icon-button:hover{
+    background-color: #CB1E22;
+    color: #fff;
+}
+/* .contact .row .px-1 .box-contact{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+} */
+
+.container h2{
+    color: #DD8A2E;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container .accordion-button{
+    background-color: #fff;
+    color: #DD8A2E;
+    margin-top: 20px;
+    word-spacing: 2px;
+    border-radius: 30px;
+    border: 2px solid #DD8A2E;
+    /* border-bottom: none; */
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #DD8A2E;
+    box-shadow: rgb(0 0 0 / 13%) 0px -1px 0px inset;
+}
+
+.container .accordion-button .collapsed {
+    border-bottom: none;
+    border-bottom-width: none;
+}
+
+.accordion-button .collapsed {
+    border-bottom-width: none;
+}
+
+.container .accordion-button:hover{
+    color: #11255A;
+}
+
+.credit{
+    height: auto;
+    background-color: #DD8A2E;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.credit h1{
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+.credit .master{
+    width: 30px;
+    height: 20px;
+}
+
+.credit img{
+    width: 20px;
+    height: 20px;
+}
+
+.credit hr{
+    margin: 5px auto;
+    color: #fff;
+}
+
+.credit i{
+    color: #fff;
+}
+
+.credit p{
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+.shipment{
+    text-align: center;
+}
+.shipment i{
+    color: #DD8A2E;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+.shipment h1{
+    font-family: 'Kanit', sans-serif;
+    color: #11255A;
+    margin-top: 10px;
+}
+
+.shipment .circle{
+    width: 30px;
+    height: 30px;
+    background-color: #CB1E22;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: none;
+}
+
+.shipment hr{
+    color: #CB1E22;
+    margin-top: -85px;
+    width: 100%;
+    display: none;
+}
+
+.footer{
+    height: 57px;
+    background-color: #ACB7C9;
+    text-align: center;
+    margin: auto;
+}
+
+.footer .img-footer{
+    width: 96px;
+    height: 37px;
+    margin: 10px auto;
+}
+
+.footer i{
+    font-size: 5px;
+    margin-top: 10px;
+}
+
+.footer .container .col .footer-text{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2px;
+}
+
+.footer-right{
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px){
+    .container-fluid .banner h1{
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        position: relative;
+        top: 100px;
+    }
+
+    .contact{
+        background-color: #DD8A2E;
+        height: 490px;
+        text-align: center;
+        color: #11255A;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        margin-top: auto;
+    }
+
+    .shipment hr{
+        color: #CB1E22;
+        margin-top: -85px;
+        width: 100%;
+    }
+
+    .footer{
+        height: 100px;
+        background-color: #ACB7C9;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .footer .img-footer{
+        width: 158px;
+        height: 51px;
+        margin: 25px auto;
+    }
+    
+    .footer i{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .footer .container .col .footer-text{
+        font-family: 'Kanit', sans-serif;
+        font-size: 18px;
+    }
+    
+    .footer-right{
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Kanit', sans-serif;
+}
+
+.landing-bg {
+    background-image: url(./../images/banner2.jpg);
+    height: 799px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-text {
+    position: relative;
+    top: 198px;
+    left: 33px;
+    width: 32px;
+    height: 32px;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 24px/32px Kanit;
+    letter-spacing: 0px;
+    color: #11255A;
+    opacity: 1;
+}
+
+.nav-text2{
+    position: relative;
+    top: 320px;
+    left: 271px;
+    width: 63px;
+    height: 32px;
+    text-align: left;
+    font: normal normal normal 24px/32px Kanit;
+    letter-spacing: 0px;
+    color: #11255A;
+    opacity: 1;
+}
+
+.nav-text3{
+    position: relative;
+    top: 570px;
+    left: 168px;
+    width: 64px;
+    height: 32px;
+    text-align: left;
+    font: normal normal normal 24px/32px Kanit;
+    letter-spacing: 0px;
+    color: #11255A;
+    opacity: 1;
+}
+
+.product-text{
+    color: #DD8A2E;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.wrapper .carousel{
+    margin: auto;
+    padding: 0 30px;
+}
+
+.carousel .card{
+    width: 324px;
+    height: 412px;
+    border-radius: 12%;
+    margin: 20px 0;
+    border: none;
+}
+
+.thumb-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: 0;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-weight: lighter;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover .thumb-overlay{
+    opacity: .9;
+}
+
+.thumb-overlay h1{
+    position: relative;
+    top: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: #DD8A2E;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 15px;
+}
+
+.thumb-overlay h3{
+    position: relative;
+    top: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: #DD8A2E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.thumb-overlay p{
+    position: relative;
+    top: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+.thumb-overlay #circle {
+    width: 30px; 
+    height: 30px; 
+    background: #000; 
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    margin: 0 0 10px 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.thumb-overlay #circle2 {
+    width: 30px; 
+    height: 30px; 
+    background: #F50200; 
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    margin: 0 0 10px 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.thumb-overlay #circle3 {
+    width: 30px; 
+    height: 30px; 
+    background: #8F8F8F; 
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    margin: 0 0 10px 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.thumb-overlay .btn{
+    width: 194px;
+    height: 35px;
+    background-color: #DD8A2E;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.thumb-overlay .btn:hover{
+    background-color: #11255A;
+    color: #fff;
+}
+
+.pro-text h1{
+    color: #DD8A2E;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pro-text .card{
+    width: 239px;
+    height: 272px;
+    background-color: #DD8A2E;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+
+.pro-text .card .card-img{
+    width: 138px;
+    height: 176px;
+    margin: 20px auto;
+}
+
+.pro-text .card .button{
+    width: 95px;
+    height: 36px;
+    border-radius: 50px;
+    margin: 10px auto;
+    color: #DD8A2E;
+    background-color: #fff;
+    font-family: 'Kanit', sans-serif;
+}
+
+.pro-text .card .button:hover{
+    color: #fff;
+    background-color: #11255A;
+}
+
+.pro-text .button2{
+    width: 239px;
+    height: 55px;
+    background-color: #fff;
+    border: solid #DD8A2E;
+    border-radius: 50px;
+    margin: auto auto;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: #DD8A2E;
+}
+
+.back-pic{
+    background-image: url(../images/banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .product-fav{
+    justify-content: center;
+}
+.product-fav h1{
+    color: #DD8A2E;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    /* position: relative;
+    top: 20px; */
+}
+
+.product-fav .card{
+    width: 194px;
+    height: 194px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.product-fav .product-fav-img{
+    width: 194px;
+    height: 194px;
+    border-radius: 50px;
+}
+
+.footer{
+    height: 57px;
+    background-color: #ACB7C9;
+    text-align: center;
+    margin: auto;
+}
+
+.footer .img-footer{
+    width: 96px;
+    height: 37px;
+    margin: 10px auto;
+}
+
+.footer i{
+    font-size: 5px;
+    margin-top: 10px;
+}
+
+.footer .container .col .footer-text{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2px;
+}
+
+.footer-right{
+    margin-top: 10px;
+}
+@media screen and (min-width: 768px){
+    .nav-text {
+        position: relative;
+        top: 205px;
+        left: 86px;
+        width: 32px;
+        height: 32px;
+        text-align: left;
+        text-decoration: underline;
+        font: normal normal normal 24px/32px Kanit;
+        letter-spacing: 0px;
+        color: #11255A;
+        opacity: 1;
+    }
+
+    .nav-text2{
+        position: relative;
+        top: 356px;
+        left: 639px;
+        width: 63px;
+        height: 32px;
+        text-align: left;
+        font: normal normal normal 24px/32px Kanit;
+        letter-spacing: 0px;
+        color: #11255A;
+        opacity: 1;
+    }
+
+    .nav-text3{
+        position: relative;
+        top: 572px;
+        left: 606px;
+        width: 64px;
+        height: 32px;
+        text-align: left;
+        font: normal normal normal 24px/32px Kanit;
+        letter-spacing: 0px;
+        color: #11255A;
+        opacity: 1;
+    }
+
+    .pro-text .button2{
+        width: 239px;
+        height: 55px;
+        background-color: #fff;
+        border: solid #DD8A2E;
+        border-radius: 50px;
+        margin-left: 200px;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        color: #DD8A2E;
+    }
+
+    .product-fav .card{
+        width: 194px;
+        height: 194px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: none;
+    }
+    
+    .product-fav .product-fav-img{
+        width: 194px;
+        height: 194px;
+        border-radius: 50px;
+    }
+
+    .footer{
+        height: 100px;
+        background-color: #ACB7C9;
+        text-align: center;
+        /* margin-top: 50px; */
+    }
+    
+    .footer .img-footer{
+        width: 158px;
+        height: 51px;
+        margin: 25px auto;
+    }
+    
+    .footer i{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .footer .container .col .footer-text{
+        font-family: 'Kanit', sans-serif;
+        font-size: 18px;
+    }
+    
+    .footer-right{
+        margin-top: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .nav-text {
+        position: relative;
+        top: 233px;
+        left: 232px;
+        width: 53px;
+        height: 53px;
+        text-align: left;
+        text-decoration: underline;
+        font: normal normal normal 40px/53px Kanit;
+        letter-spacing: 0px;
+        color: #11255A;
+        opacity: 1;
+    }
+    
+    .nav-text2 {
+        position: relative;
+        top: 350px;
+        left: 1018px;
+        width: 106px;
+        height: 53px;
+        text-align: left;
+        font: normal normal normal 40px/53px Kanit;
+        letter-spacing: 0px;
+        color: #11255A;
+        opacity: 1;
+    }
+    
+    .nav-text3 {
+        position: relative;
+        top: 518px;
+        left: 847px;
+        width: 106px;
+        height: 53px;
+        text-align: left;
+        font: normal normal normal 40px/53px Kanit;
+        letter-spacing: 0px;
+        color: #11255A;
+        opacity: 1;
+    }
+
+    .pro-text .button2{
+        width: 239px;
+        height: 55px;
+        background-color: #fff;
+        border: solid #DD8A2E;
+        border-radius: 50px;
+        /* margin: auto auto; */
+        margin-left: 432px;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        color: #DD8A2E;
+    }
+
+    .product-fav .card{
+        width: 324px;
+        height: 324px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: none;
+    }
+    
+    .product-fav .product-fav-img{
+        width: 324px;
+        height: 324px;
+        border-radius: 50px;
+    }
+}
